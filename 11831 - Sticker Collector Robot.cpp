@@ -68,7 +68,7 @@ int main(void) {
 					if(mat[st[0]+x][st[1]+y]!='#'){
 						st[0]=st[0]+x,st[1]=st[1]+y;
 						if(mat[st[0]][st[1]]=='*'){
-							mat[st[0]][st[1]]='K';
+							mat[st[0]][st[1]]='.';
 							ans++;
 						}
 					}
